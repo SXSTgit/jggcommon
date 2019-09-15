@@ -12,7 +12,7 @@ public interface UserMapper {
 
 	//验证码登陆
 
-	public User getUserBySMS(@Param(value = "phone") String phone);
+	public User getUserBySMS(@Param(value = "phone") String phone)throws Exception;
 	//注册
 	public int addUser(User user)throws Exception;
 
