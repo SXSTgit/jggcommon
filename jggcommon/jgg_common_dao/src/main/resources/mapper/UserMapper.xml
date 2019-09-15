@@ -9,6 +9,11 @@
         and password=#{password}
     </select>
 
+    <select id="getUserBySMS" resultType="com.zb.pojo.User">
+        select * from `user` where
+        phone=#{phone}
+    </select>
+
     <insert id="addUser" parameterType="com.zb.pojo.User">
        insert into `user` value(null,#{uid},#{password},NOW(),null,null,#{phone})
     </insert>
