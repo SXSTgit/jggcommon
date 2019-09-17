@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.JggGoodsMassageMapper">
+
+    <select id="getJggGoodsMassageById" resultType="com.zb.pojo.JggGoodsMassage">
+        select
+                goodsid as goodsid,
+                goodsname as goodsname,
+                goodsinfo as goodsinfo,
+                goodsprice as goodsprice,
+                goodsImg as goodsImg,
+                goodsstock as goodsstock,
+                createdTime as createdTime,
+                updatedTime as updatedTime,
+                goodssortId as goodssortId
+        from jgg_goods_massage
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getJggGoodsMassageListByMap" resultType="com.zb.pojo.JggGoodsMassage" parameterType="java.util.Map">
+        select
+                goodsid as goodsid,
+                goodsname as goodsname,
+                goodsinfo as goodsinfo,
+                goodsprice as goodsprice,
+                goodsImg as goodsImg,
+                goodsstock as goodsstock,
+                createdTime as createdTime,
+                updatedTime as updatedTime,
+                goodssortId as goodssortId
+        from jgg_goods_massage
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="goodsid != null and goodsid!=''">
+                    and goodsid=#{goodsid}
+                </if>
+                <if test="goodsname != null and goodsname!=''">
+                    and goodsname=#{goodsname}
+                </if>
+                <if test="goodsinfo != null and goodsinfo!=''">
+                    and goodsinfo=#{goodsinfo}
+                </if>
+                <if test="goodsprice != null and goodsprice!=''">
+                    and goodsprice=#{goodsprice}
+                </if>
+                <if test="goodsImg != null and goodsImg!=''">
+                    and goodsImg=#{goodsImg}
+                </if>
+                <if test="goodsstock != null and goodsstock!=''">
+                    and goodsstock=#{goodsstock}
+                </if>
+                <if test="createdTime != null and createdTime!=''">
+                    and createdTime=#{createdTime}
+                </if>
+                <if test="updatedTime != null and updatedTime!=''">
+                    and updatedTime=#{updatedTime}
+                </if>
+                <if test="goodssortId != null and goodssortId!=''">
+                    and goodssortId=#{goodssortId}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getJggGoodsMassageCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from jgg_goods_massage
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="goodsid != null and goodsid!=''">
+                    and goodsid=#{goodsid}
+                </if>
+                <if test="goodsname != null and goodsname!=''">
+                    and goodsname=#{goodsname}
+                </if>
+                <if test="goodsinfo != null and goodsinfo!=''">
+                    and goodsinfo=#{goodsinfo}
+                </if>
+                <if test="goodsprice != null and goodsprice!=''">
+                    and goodsprice=#{goodsprice}
+                </if>
+                <if test="goodsImg != null and goodsImg!=''">
+                    and goodsImg=#{goodsImg}
+                </if>
+                <if test="goodsstock != null and goodsstock!=''">
+                    and goodsstock=#{goodsstock}
+                </if>
+                <if test="createdTime != null and createdTime!=''">
+                    and createdTime=#{createdTime}
+                </if>
+                <if test="updatedTime != null and updatedTime!=''">
+                    and updatedTime=#{updatedTime}
+                </if>
+                <if test="goodssortId != null and goodssortId!=''">
+                    and goodssortId=#{goodssortId}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertJggGoodsMassage" parameterType="com.zb.pojo.JggGoodsMassage">
+        insert into jgg_goods_massage(
+                        goodsid,
+                        goodsname,
+                        goodsinfo,
+                        goodsprice,
+                        goodsImg,
+                        goodsstock,
+                        createdTime,
+                        updatedTime,
+                        goodssortId)
+        values(
+                     #{goodsid},
+                     #{goodsname},
+                     #{goodsinfo},
+                     #{goodsprice},
+                     #{goodsImg},
+                     #{goodsstock},
+                     #{createdTime},
+                     #{updatedTime},
+                    #{goodssortId})
+    </insert>
+
+    <update id="updateJggGoodsMassage" parameterType="com.zb.pojo.JggGoodsMassage">
+        update jgg_goods_massage
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="goodsid != null and goodsid!=''">
+                            goodsid=#{goodsid},
+                        </if>
+                        <if test="goodsname != null and goodsname!=''">
+                            goodsname=#{goodsname},
+                        </if>
+                        <if test="goodsinfo != null and goodsinfo!=''">
+                            goodsinfo=#{goodsinfo},
+                        </if>
+                        <if test="goodsprice != null and goodsprice!=''">
+                            goodsprice=#{goodsprice},
+                        </if>
+                        <if test="goodsImg != null and goodsImg!=''">
+                            goodsImg=#{goodsImg},
+                        </if>
+                        <if test="goodsstock != null and goodsstock!=''">
+                            goodsstock=#{goodsstock},
+                        </if>
+                        <if test="createdTime != null and createdTime!=''">
+                            createdTime=#{createdTime},
+                        </if>
+                        <if test="updatedTime != null and updatedTime!=''">
+                            updatedTime=#{updatedTime},
+                        </if>
+                        <if test="goodssortId != null and goodssortId!=''">
+                            goodssortId=#{goodssortId}
+                        </if>
+        </trim>
+    </update>
+</mapper>

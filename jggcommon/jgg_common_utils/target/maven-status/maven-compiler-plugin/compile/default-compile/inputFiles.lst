@@ -1,8 +1,8 @@
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\MD5.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\config\RedisConfig.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\EmptyUtils.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\IdWorker.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\RedisUtils.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\BigDecimalUtil.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\Constants.java
-D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util\DateUtil.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\Constants.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\EmptyUtils.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\MD5.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\DateUtil.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\RedisUtils.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\config\RedisConfig.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\BigDecimalUtil.java
+D:\Cloud\jggcommon\jggcommon\jgg_common_utils\src\main\java\com\zb\util\IdWorker.java

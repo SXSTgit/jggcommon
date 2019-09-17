@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.JggGoodsSortMapper">
+
+    <select id="getJggGoodsSortById" resultType="com.zb.pojo.JggGoodsSort">
+        select
+                id as id,
+                sortname as sortname
+        from jgg_goods_sort
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getJggGoodsSortListByMap" resultType="com.zb.pojo.JggGoodsSort" parameterType="java.util.Map">
+        select
+                id as id,
+                sortname as sortname
+        from jgg_goods_sort
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="id != null and id!=''">
+                    and id=#{id}
+                </if>
+                <if test="sortname != null and sortname!=''">
+                    and sortname=#{sortname}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getJggGoodsSortCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from jgg_goods_sort
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="id != null and id!=''">
+                    and id=#{id}
+                </if>
+                <if test="sortname != null and sortname!=''">
+                    and sortname=#{sortname}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertJggGoodsSort" parameterType="com.zb.pojo.JggGoodsSort">
+        insert into jgg_goods_sort(
+                        sortname)
+        values(
+                    #{sortname})
+    </insert>
+
+    <update id="updateJggGoodsSort" parameterType="com.zb.pojo.JggGoodsSort">
+        update jgg_goods_sort
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="sortname != null and sortname!=''">
+                            sortname=#{sortname}
+                        </if>
+        </trim>
+    </update>
+</mapper>
