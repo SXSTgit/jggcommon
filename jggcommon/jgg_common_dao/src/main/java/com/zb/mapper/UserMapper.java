@@ -16,5 +16,7 @@ public interface UserMapper {
 	//注册
 	public int addUser(User user)throws Exception;
 
+	//修改用户信息
+	public  int updateUser(User user)throws Exception;
 
 }
