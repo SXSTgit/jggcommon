@@ -19,6 +19,6 @@
     </insert>
 
     <update id="updateUser" parameterType="com.zb.pojo.User">
-        update	 `user` set uid=#{uid},userImg=#{userImg} where id={id}
+        update	 `user` set uid=#{uid},userImg=#{userImg} where id=#{id}
     </update>
 </mapper>  
