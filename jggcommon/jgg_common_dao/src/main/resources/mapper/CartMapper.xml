@@ -130,8 +130,8 @@
                      #{num},
                      #{amount},
                      #{aliTradeNo},
-                     #{createdTime},
-                     #{updatedTime},
+                     now(),
+                     now(),
                     #{version})
     </insert>
 
