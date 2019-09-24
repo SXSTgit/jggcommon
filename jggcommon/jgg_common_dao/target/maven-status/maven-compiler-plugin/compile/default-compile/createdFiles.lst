@@ -1,2 +1,5 @@
 com\zb\mapper\UserMapper.class
+com\zb\mapper\GoodsMapper.class
+com\zb\mapper\JggGoodsSortMapper.class
 com\zb\mapper\AdminMapper.class
+com\zb\mapper\JggGoodsMassageMapper.class
