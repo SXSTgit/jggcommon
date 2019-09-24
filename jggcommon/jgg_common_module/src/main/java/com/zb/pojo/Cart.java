@@ -9,21 +9,21 @@ public class Cart implements Serializable {
     private String id;
     //
     private String userId;
-    //
+    //订单编号
     private String orderNo;
-    //
+    //商品Id
     private String goodsId;
-    //
+    //购买量
     private Integer num;
-    //
+    //总价
     private Double amount;
-    //
+    //阿里支付交易号
     private String aliTradeNo;
     //
     private Date createdTime;
     //
     private Date updatedTime;
-    //
+    //版本 乐观锁
     private Integer version;
     //get set 方法
     public void setId (String  id){
