@@ -6,16 +6,16 @@
 
     <select id="getCartById" resultType="com.zb.pojo.Cart">
         select
-                id as id,
-                userId as userId,
-                orderNo as orderNo,
-                goodsId as goodsId,
-                num as num,
-                amount as amount,
-                aliTradeNo as aliTradeNo,
-                createdTime as createdTime,
-                updatedTime as updatedTime,
-                version as version
+        id as id,
+        userId as userId,
+        orderNo as orderNo,
+        goodsId as goodsId,
+        num as num,
+        amount as amount,
+        aliTradeNo as aliTradeNo,
+        createdTime as createdTime,
+        updatedTime as updatedTime,
+        version as version
         from cart
         <trim prefix="where" prefixOverrides="and | or">
             <if test="id != null">
@@ -26,87 +26,87 @@
 
     <select id="getCartListByMap" resultType="com.zb.pojo.Cart" parameterType="java.util.Map">
         select
-                id as id,
-                userId as userId,
-                orderNo as orderNo,
-                goodsId as goodsId,
-                num as num,
-                amount as amount,
-                aliTradeNo as aliTradeNo,
-                createdTime as createdTime,
-                updatedTime as updatedTime,
-                version as version
+        id as id,
+        userId as userId,
+        orderNo as orderNo,
+        goodsId as goodsId,
+        num as num,
+        amount as amount,
+        aliTradeNo as aliTradeNo,
+        createdTime as createdTime,
+        updatedTime as updatedTime,
+        version as version
         from cart
         <trim prefix="where" prefixOverrides="and | or">
-                <if test="id != null and id!=''">
-                    and id=#{id}
-                </if>
-                <if test="userId != null and userId!=''">
-                    and userId=#{userId}
-                </if>
-                <if test="orderNo != null and orderNo!=''">
-                    and orderNo=#{orderNo}
-                </if>
-                <if test="goodsId != null and goodsId!=''">
-                    and goodsId=#{goodsId}
-                </if>
-                <if test="num != null and num!=''">
-                    and num=#{num}
-                </if>
-                <if test="amount != null and amount!=''">
-                    and amount=#{amount}
-                </if>
-                <if test="aliTradeNo != null and aliTradeNo!=''">
-                    and aliTradeNo=#{aliTradeNo}
-                </if>
-                <if test="createdTime != null and createdTime!=''">
-                    and createdTime=#{createdTime}
-                </if>
-                <if test="updatedTime != null and updatedTime!=''">
-                    and updatedTime=#{updatedTime}
-                </if>
-                <if test="version != null and version!=''">
-                    and version=#{version}
-                </if>
+            <if test="id != null and id!=''">
+                and id=#{id}
+            </if>
+            <if test="userId != null and userId!=''">
+                and userId=#{userId}
+            </if>
+            <if test="orderNo != null and orderNo!=''">
+                and orderNo=#{orderNo}
+            </if>
+            <if test="goodsId != null and goodsId!=''">
+                and goodsId=#{goodsId}
+            </if>
+            <if test="num != null and num!=''">
+                and num=#{num}
+            </if>
+            <if test="amount != null and amount!=''">
+                and amount=#{amount}
+            </if>
+            <if test="aliTradeNo != null and aliTradeNo!=''">
+                and aliTradeNo=#{aliTradeNo}
+            </if>
+            <if test="createdTime != null and createdTime!=''">
+                and createdTime=#{createdTime}
+            </if>
+            <if test="updatedTime != null and updatedTime!=''">
+                and updatedTime=#{updatedTime}
+            </if>
+            <if test="version != null and version!=''">
+                and version=#{version}
+            </if>
         </trim>
         <if test="beginPos != null and pageSize != null ">
             limit #{beginPos},#{pageSize}
         </if>
     </select>
 
-    <select id="getCartCountByMap" resultType="Integer"  parameterType="java.util.Map">
+    <select id="getCartCountByMap" resultType="Integer" parameterType="java.util.Map">
         select count(*) from cart
         <trim prefix="where" prefixOverrides="and | or">
-                <if test="id != null and id!=''">
-                    and id=#{id}
-                </if>
-                <if test="userId != null and userId!=''">
-                    and userId=#{userId}
-                </if>
-                <if test="orderNo != null and orderNo!=''">
-                    and orderNo=#{orderNo}
-                </if>
-                <if test="goodsId != null and goodsId!=''">
-                    and goodsId=#{goodsId}
-                </if>
-                <if test="num != null and num!=''">
-                    and num=#{num}
-                </if>
-                <if test="amount != null and amount!=''">
-                    and amount=#{amount}
-                </if>
-                <if test="aliTradeNo != null and aliTradeNo!=''">
-                    and aliTradeNo=#{aliTradeNo}
-                </if>
-                <if test="createdTime != null and createdTime!=''">
-                    and createdTime=#{createdTime}
-                </if>
-                <if test="updatedTime != null and updatedTime!=''">
-                    and updatedTime=#{updatedTime}
-                </if>
-                <if test="version != null and version!=''">
-                    and version=#{version}
-                </if>
+            <if test="id != null and id!=''">
+                and id=#{id}
+            </if>
+            <if test="userId != null and userId!=''">
+                and userId=#{userId}
+            </if>
+            <if test="orderNo != null and orderNo!=''">
+                and orderNo=#{orderNo}
+            </if>
+            <if test="goodsId != null and goodsId!=''">
+                and goodsId=#{goodsId}
+            </if>
+            <if test="num != null and num!=''">
+                and num=#{num}
+            </if>
+            <if test="amount != null and amount!=''">
+                and amount=#{amount}
+            </if>
+            <if test="aliTradeNo != null and aliTradeNo!=''">
+                and aliTradeNo=#{aliTradeNo}
+            </if>
+            <if test="createdTime != null and createdTime!=''">
+                and createdTime=#{createdTime}
+            </if>
+            <if test="updatedTime != null and updatedTime!=''">
+                and updatedTime=#{updatedTime}
+            </if>
+            <if test="version != null and version!=''">
+                and version=#{version}
+            </if>
         </trim>
     </select>
 
@@ -138,33 +138,38 @@
     <update id="updateCart" parameterType="com.zb.pojo.Cart">
         update cart
         <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
-                        <if test="userId != null and userId!=''">
-                            userId=#{userId},
-                        </if>
-                        <if test="orderNo != null and orderNo!=''">
-                            orderNo=#{orderNo},
-                        </if>
-                        <if test="goodsId != null and goodsId!=''">
-                            goodsId=#{goodsId},
-                        </if>
-                        <if test="num != null and num!=''">
-                            num=#{num},
-                        </if>
-                        <if test="amount != null and amount!=''">
-                            amount=#{amount},
-                        </if>
-                        <if test="aliTradeNo != null and aliTradeNo!=''">
-                            aliTradeNo=#{aliTradeNo},
-                        </if>
-                        <if test="createdTime != null and createdTime!=''">
-                            createdTime=#{createdTime},
-                        </if>
-                        <if test="updatedTime != null and updatedTime!=''">
-                            updatedTime=#{updatedTime},
-                        </if>
-                        <if test="version != null and version!=''">
-                            version=#{version}
-                        </if>
+            <if test="userId != null and userId!=''">
+                userId=#{userId},
+            </if>
+            <if test="orderNo != null and orderNo!=''">
+                orderNo=#{orderNo},
+            </if>
+            <if test="goodsId != null and goodsId!=''">
+                goodsId=#{goodsId},
+            </if>
+            <if test="num != null and num!=''">
+                num=#{num},
+            </if>
+            <if test="amount != null and amount!=''">
+                amount=#{amount},
+            </if>
+            <if test="aliTradeNo != null and aliTradeNo!=''">
+                aliTradeNo=#{aliTradeNo},
+            </if>
+            <if test="createdTime != null and createdTime!=''">
+                createdTime=#{createdTime},
+            </if>
+            <if test="updatedTime != null and updatedTime!=''">
+                updatedTime=#{updatedTime},
+            </if>
+            <if test="version != null and version!=''">
+                version=#{version}
+            </if>
         </trim>
     </update>
+
+
+    <delete id="deleteCartById">
+        delete from `cart` where id=#{id}
+    </delete>
 </mapper>
