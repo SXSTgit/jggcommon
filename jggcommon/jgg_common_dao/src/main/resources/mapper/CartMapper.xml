@@ -112,6 +112,7 @@
 
     <insert id="insertCart" parameterType="com.zb.pojo.Cart">
         insert into cart(
+                          id,
                         userId,
                         orderNo,
                         goodsId,
@@ -122,6 +123,7 @@
                         updatedTime,
                         version)
         values(
+                      #{id}
                      #{userId},
                      #{orderNo},
                      #{goodsId},
