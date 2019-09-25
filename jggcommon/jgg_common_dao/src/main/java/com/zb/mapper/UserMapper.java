@@ -1,22 +1,25 @@
 package com.zb.mapper;
-
 import com.zb.pojo.User;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import java.util.List;
+import java.util.Map;
+import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface UserMapper {
 
-	//密码登陆
-	public User getUser(@Param(value = "phone") String phone, @Param(value = "password") String password)throws Exception;
+	public User getUserById(@Param(value = "id") Long id)throws Exception;
 
-	//验证码登陆
+	public List<User>	getUserListByMap(Map<String,Object> param)throws Exception;
 
-	public User getUserBySMS(@Param(value = "phone") String phone)throws Exception;
-	//注册
-	public int addUser(User user)throws Exception;
+	public Integer getUserCountByMap(Map<String,Object> param)throws Exception;
 
-	//修改用户信息
-	public  int updateUser(User user)throws Exception;
+	public Integer insertUser(User user)throws Exception;
+
+	public Integer updateUser(User user)throws Exception;
+
+	public Integer deleteUserById(@Param(value = "id") Long id)throws Exception;
+
+	public Integer batchDeleteUser(Map<String,List<String>> params);
 
 }
