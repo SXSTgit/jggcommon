@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface AdminMapper {
 
+	//ssss
 	public Admin getAdminById(@Param(value = "id") Long id)throws Exception;
 
 	public List<Admin>	getAdminListByMap(Map<String,Object> param)throws Exception;
