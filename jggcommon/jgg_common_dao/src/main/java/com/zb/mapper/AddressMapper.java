@@ -10,7 +10,7 @@ public interface AddressMapper {
 
 	public Address getAddressById(@Param(value = "id") Long id)throws Exception;
 
-	public List<Address>	getAddressListByMap(Map<String,Object> param)throws Exception;
+	public List<Address>	getAddressListByMap(Map<String,Integer> param)throws Exception;
 
 	public Integer getAddressCountByMap(Map<String,Object> param)throws Exception;
 
@@ -18,7 +18,7 @@ public interface AddressMapper {
 
 	public Integer updateAddress(Address address)throws Exception;
 
-	public Integer deleteAddressById(@Param(value = "id") Long id)throws Exception;
+	public Integer deleteAddressById(List id)throws Exception;
 
 	public Integer batchDeleteAddress(Map<String,List<String>> params);
 

@@ -100,4 +100,13 @@
                         </if>
         </trim>
     </update>
+
+    <delete id="deleteAddressById" parameterType="java.util.List">
+        delete from `cart` where id in
+        <foreach collection="list" item="id"
+                 open="(" close=")" index="index" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+
 </mapper>
