@@ -1,5 +1,8 @@
-com\zb\mapper\UserMapper.class
-com\zb\mapper\GoodsMapper.class
+com\zb\mapper\JorderMapper.class
+com\zb\mapper\CartMapper.class
 com\zb\mapper\JggGoodsSortMapper.class
 com\zb\mapper\AdminMapper.class
 com\zb\mapper\JggGoodsMassageMapper.class
+com\zb\mapper\UserMapper.class
+com\zb\mapper\GoodsMapper.class
+com\zb\mapper\TradeMapper.class

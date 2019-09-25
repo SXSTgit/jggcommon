@@ -18,7 +18,7 @@ public interface CartMapper {
 
 	public Integer updateCart(Cart cart)throws Exception;
 
-	public Integer deleteCartById(@Param(value = "id") String  id)throws Exception;
+	public Integer deleteCartById(List id)throws Exception;
 
 	public Integer batchDeleteCart(Map<String,List<String>> params);
 

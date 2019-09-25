@@ -123,7 +123,7 @@
                         updatedTime,
                         version)
         values(
-                      #{id}
+                      #{id},
                      #{userId},
                      #{orderNo},
                      #{goodsId},
@@ -169,7 +169,11 @@
     </update>
 
 
-    <delete id="deleteCartById">
-        delete from `cart` where id=#{id}
+    <delete id="deleteCartById" parameterType="java.util.List">
+        delete from `cart` where id in
+        <foreach collection="list" item="id"
+                 open="(" close=")" index="index" separator=",">
+        #{id}
+    </foreach>
     </delete>
 </mapper>
