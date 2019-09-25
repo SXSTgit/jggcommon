@@ -18,7 +18,7 @@ public interface AddressMapper {
 
 	public Integer updateAddress(Address address)throws Exception;
 
-	public Integer deleteAddressById(List id)throws Exception;
+	public Integer deleteAddressById(@Param("id")Integer  id)throws Exception;
 
 	public Integer batchDeleteAddress(Map<String,List<String>> params);
 
