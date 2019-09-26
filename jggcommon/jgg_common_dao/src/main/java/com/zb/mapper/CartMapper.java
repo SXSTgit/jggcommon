@@ -10,9 +10,9 @@ public interface CartMapper {
 
 	public Cart getCartById(@Param(value = "id") Long id)throws Exception;
 
-	public List<Cart>	getCartListByMap(Map<String,Object> param)throws Exception;
+	public List<Cart>	getCartListByMap(Map<String,String> param)throws Exception;
 
-	public Integer getCartCountByMap(Map<String,Object> param)throws Exception;
+	public Integer getCartCountByMap(Map<String,String> param)throws Exception;
 
 	public Integer insertCart(Cart cart)throws Exception;
 

@@ -88,6 +88,7 @@
 
     <insert id="insertTrade" parameterType="com.zb.pojo.Trade">
         insert into trade(
+
                         orderNo,
                         tradeNo,
                         payMethod,
@@ -95,12 +96,13 @@
                         createdTime,
                         updatedTime)
         values(
+
                      #{orderNo},
                      #{tradeNo},
                      #{payMethod},
                      #{amount},
-                     #{createdTime},
-                    #{updatedTime})
+                    now(),
+                    now())
     </insert>
 
     <update id="updateTrade" parameterType="com.zb.pojo.Trade">
