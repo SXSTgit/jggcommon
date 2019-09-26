@@ -6,6 +6,14 @@ public class AdminToken {
     private String str;
     private Admin admin;
 
+    public AdminToken() {
+    }
+
+    public AdminToken(String str, Admin admin) {
+        this.str = str;
+        this.admin = admin;
+    }
+
     public String getStr() {
         return str;
     }
