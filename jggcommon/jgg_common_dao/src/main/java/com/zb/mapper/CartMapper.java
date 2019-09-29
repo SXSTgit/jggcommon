@@ -8,18 +8,17 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface CartMapper {
 
-	public Cart getCartById(@Param(value = "id") Long id)throws Exception;
+	public Cart getCartById(@Param(value = "id") String  id)throws Exception;
 
-	public List<Cart>	getCartListByMap(Map<String,String> param)throws Exception;
+	public List<Cart>	getCartListByuserId(@Param("userId") Integer userId)throws Exception;
 
-	public Integer getCartCountByMap(Map<String,String> param)throws Exception;
 
 	public Integer insertCart(Cart cart)throws Exception;
 
 	public Integer updateCart(Cart cart)throws Exception;
 
-	public Integer deleteCartById(List id)throws Exception;
+	public Integer deleteCartById(@Param(value = "id") Long id)throws Exception;
 
-	public Integer batchDeleteCart(Map<String,List<String>> params);
+
 
 }

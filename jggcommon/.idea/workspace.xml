@@ -1,42 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93182382-2f96-4769-99c9-2130ab010e4b" name="Default Changelist" comment="后台登陆">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/GoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/com/zb/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/classes/com/zb/mapper/AdminMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/com/zb/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/classes/com/zb/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/classes/mapper/UserMapper.xml" afterDir="false" />
+    <list default="true" id="93182382-2f96-4769-99c9-2130ab010e4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hs_err_pid17016.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid3352.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_pid17016.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_pid3352.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/CartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/JorderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/JorderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/jgg_common_dto-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dto/target/jgg_common_dto-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dto/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/classes/com/zb/pojo/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/target/classes/com/zb/pojo/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/jgg_common_module-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/target/jgg_common_module-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/classes/com/zb/service/impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/classes/com/zb/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/classes/com/zb/service/UserService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/BigDecimalUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/BigDecimalUtil$BigDecimalOprations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/BigDecimalUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$ErrorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$MessageStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$QgStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$QueueName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$Redis_Expire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$StockStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$User_AUTH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$WxpayStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/EmptyUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/IdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/RedisUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/RedisUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,14 +137,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="39" />
-          <entry key="txt" value="37" />
+          <entry key="txt" value="46" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="39" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="PLAIN_TEXT" value="46" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -159,18 +166,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/AdminService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -331,238 +326,6 @@
               <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
-              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -572,7 +335,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569721541007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569722215920" />
     <property name="last_opened_file_path" value="I:/jingege/jgg_common" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -627,7 +390,7 @@
       <workItem from="1569383025865" duration="19723000" />
       <workItem from="1569662721694" duration="2088000" />
       <workItem from="1569669202648" duration="2444000" />
-      <workItem from="1569717084931" duration="1284000" />
+      <workItem from="1569717084931" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1569383089632</created>
@@ -678,14 +441,22 @@
       <option name="project" value="LOCAL" />
       <updated>1569492042358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019-9-29">
+      <created>1569721623186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569721623186</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41616000" />
+    <option name="totallyTimeSpent" value="42304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -731,7 +502,8 @@
     <MESSAGE value="后台token登陆" />
     <MESSAGE value="误删" />
     <MESSAGE value="后台登陆" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台登陆" />
+    <MESSAGE value="2019-9-29" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-9-29" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

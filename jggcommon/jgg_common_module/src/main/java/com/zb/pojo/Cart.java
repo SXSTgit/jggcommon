@@ -25,6 +25,8 @@ public class Cart implements Serializable {
     private Date updatedTime;
     //版本 乐观锁
     private Integer version;
+    //状态(0：待支付 1：支付成功 2:支付失败,3:已签收)
+    private Integer status;
     //get set 方法
     public void setId (String  id){
         this.id=id;
@@ -85,5 +87,11 @@ public class Cart implements Serializable {
     }
     public  Integer getVersion(){
         return this.version;
+    }
+    public void setStatus (Integer  status){
+        this.status=status;
+    }
+    public  Integer getStatus(){
+        return this.status;
     }
 }
