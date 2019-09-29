@@ -8,4 +8,5 @@ public interface GoodsMapper {
 
 	public Integer insertGoods(Goods goods)throws Exception;
 
+
 }

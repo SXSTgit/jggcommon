@@ -1,41 +1,42 @@
 package com.zb.pojo;
 import java.io.Serializable;
 import java.util.Date;
-/***
-*   
-*/
+
 public class Admin implements Serializable {
-    //
-    private Integer id;
-    //
-    private String uid;
-    //
-    private String password;
-    //
-    private String name;
-    //get set 方法
-    public void setId (Integer  id){
-        this.id=id;
+    private Integer id;//后台用户编号
+    private String loginName;//登录名
+    private String passWord;//密码
+    private String nickName;//登陆昵称
+
+    public Integer getId() {
+        return id;
     }
-    public  Integer getId(){
-        return this.id;
+
+    public void setId(Integer id) {
+        this.id = id;
     }
-    public void setUid (String  uid){
-        this.uid=uid;
+
+    public String getLoginName() {
+        return loginName;
     }
-    public  String getUid(){
-        return this.uid;
+
+    public void setLoginName(String loginName) {
+        this.loginName = loginName;
     }
-    public void setPassword (String  password){
-        this.password=password;
+
+    public String getPassWord() {
+        return passWord;
     }
-    public  String getPassword(){
-        return this.password;
+
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
     }
-    public void setName (String  name){
-        this.name=name;
+
+    public String getNickName() {
+        return nickName;
     }
-    public  String getName(){
-        return this.name;
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
 }
