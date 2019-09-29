@@ -18,6 +18,8 @@ public interface JorderMapper {
 
 	public Integer updateJorder(Jorder jorder)throws Exception;
 
+	public Integer deleteJorderById(@Param(value = "id") Long id)throws Exception;
 
+	public Integer batchDeleteJorder(Map<String,List<String>> params);
 
 }
