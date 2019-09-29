@@ -25,101 +25,17 @@
         </trim>
     </select>
 
-    <select id="getCartListByMap" resultType="com.zb.pojo.Cart" parameterType="java.util.Map">
-        select
-                id as id,
-                userId as userId,
-                orderNo as orderNo,
-                goodsId as goodsId,
-                num as num,
-                amount as amount,
-                aliTradeNo as aliTradeNo,
-                createdTime as createdTime,
-                updatedTime as updatedTime,
-                version as version,
-                status as status
-        from cart
-        <trim prefix="where" prefixOverrides="and | or">
-                <if test="id != null and id!=''">
-                    and id=#{id}
-                </if>
-                <if test="userId != null and userId!=''">
-                    and userId=#{userId}
-                </if>
-                <if test="orderNo != null and orderNo!=''">
-                    and orderNo=#{orderNo}
-                </if>
-                <if test="goodsId != null and goodsId!=''">
-                    and goodsId=#{goodsId}
-                </if>
-                <if test="num != null and num!=''">
-                    and num=#{num}
-                </if>
-                <if test="amount != null and amount!=''">
-                    and amount=#{amount}
-                </if>
-                <if test="aliTradeNo != null and aliTradeNo!=''">
-                    and aliTradeNo=#{aliTradeNo}
-                </if>
-                <if test="createdTime != null and createdTime!=''">
-                    and createdTime=#{createdTime}
-                </if>
-                <if test="updatedTime != null and updatedTime!=''">
-                    and updatedTime=#{updatedTime}
-                </if>
-                <if test="version != null and version!=''">
-                    and version=#{version}
-                </if>
-                <if test="status != null and status!=''">
-                    and status=#{status}
-                </if>
-        </trim>
-        <if test="beginPos != null and pageSize != null ">
-            limit #{beginPos},#{pageSize}
-        </if>
+    <select id="getCartListByuserId" resultType="com.zb.pojo.Cart" >
+        select * from cart
+       where userId=#{userId}
+
     </select>
 
-    <select id="getCartCountByMap" resultType="Integer"  parameterType="java.util.Map">
-        select count(*) from cart
-        <trim prefix="where" prefixOverrides="and | or">
-                <if test="id != null and id!=''">
-                    and id=#{id}
-                </if>
-                <if test="userId != null and userId!=''">
-                    and userId=#{userId}
-                </if>
-                <if test="orderNo != null and orderNo!=''">
-                    and orderNo=#{orderNo}
-                </if>
-                <if test="goodsId != null and goodsId!=''">
-                    and goodsId=#{goodsId}
-                </if>
-                <if test="num != null and num!=''">
-                    and num=#{num}
-                </if>
-                <if test="amount != null and amount!=''">
-                    and amount=#{amount}
-                </if>
-                <if test="aliTradeNo != null and aliTradeNo!=''">
-                    and aliTradeNo=#{aliTradeNo}
-                </if>
-                <if test="createdTime != null and createdTime!=''">
-                    and createdTime=#{createdTime}
-                </if>
-                <if test="updatedTime != null and updatedTime!=''">
-                    and updatedTime=#{updatedTime}
-                </if>
-                <if test="version != null and version!=''">
-                    and version=#{version}
-                </if>
-                <if test="status != null and status!=''">
-                    and status=#{status}
-                </if>
-        </trim>
-    </select>
+
 
     <insert id="insertCart" parameterType="com.zb.pojo.Cart">
         insert into cart(
+                          id,
                         userId,
                         orderNo,
                         goodsId,
@@ -131,24 +47,23 @@
                         version,
                         status)
         values(
+                     #{id},
                      #{userId},
                      #{orderNo},
                      #{goodsId},
                      #{num},
                      #{amount},
                      #{aliTradeNo},
-                     #{createdTime},
-                     #{updatedTime},
-                     #{version},
-                    #{status})
+                    now(),
+                    now(),
+                     0,
+                    0)
     </insert>
 
     <update id="updateCart" parameterType="com.zb.pojo.Cart">
         update cart
-        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
-                        <if test="userId != null and userId!=''">
-                            userId=#{userId},
-                        </if>
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id} ">
+
                         <if test="orderNo != null and orderNo!=''">
                             orderNo=#{orderNo},
                         </if>
