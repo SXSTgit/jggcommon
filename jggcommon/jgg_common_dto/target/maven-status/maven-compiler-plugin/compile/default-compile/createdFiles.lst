@@ -1,3 +1,4 @@
+com\zb\vo\AdminToken.class
 com\zb\vo\RestTokenVo.class
 com\zb\dto\Page.class
 com\zb\vo\UserTokenVo.class
