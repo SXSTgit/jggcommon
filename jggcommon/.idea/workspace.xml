@@ -2,48 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93182382-2f96-4769-99c9-2130ab010e4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hs_err_pid17016.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid3352.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_pid17016.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_pid3352.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/CartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/JorderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/JorderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_module/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/AdminService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/classes/com/zb/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/classes/com/zb/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/BigDecimalUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/BigDecimalUtil$BigDecimalOprations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/BigDecimalUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$MessageStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$OrderStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$QgStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$QueueName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$Redis_Expire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$StockStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$User_AUTH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants$WxpayStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/EmptyUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/IdWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/RedisUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/classes/com/zb/util/RedisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/QgGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/QgGoodsMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/QgOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/QgTradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/QgUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/QgGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/QgGoodsMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/QgOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/QgTradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/QgUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/GoodsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/MqMessVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgGoodsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgTrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MqUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/com/zb/mapper/AdminMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/com/zb/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/classes/com/zb/dto/Dto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/classes/com/zb/dto/DtoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/classes/com/zb/dto/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/classes/com/zb/vo/RestTokenVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/classes/com/zb/vo/UserTokenVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/jgg_common_dto-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/classes/com/zb/pojo/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/classes/com/zb/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/jgg_common_module-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jgg_common_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -124,28 +132,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="36" />
-          <entry key="xml" value="15" />
+          <entry key="java" value="48" />
+          <entry key="log" value="1" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="36" />
-          <entry key="XML" value="15" />
+          <entry key="JAVA" value="48" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="39" />
           <entry key="txt" value="46" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="39" />
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -153,91 +163,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/AdminToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/MqMessVo.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/AdminMapper.java">
+        <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/UserTokenVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/GoodsMapper.java">
+        <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MqUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AdminMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/TradeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/AdminServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgGoods.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgTrade.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgGoodsMessage.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgOrder.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgUser.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgg_common_utils/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -269,7 +254,6 @@
         <option value="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/UsreServiceImpl.java" />
         <option value="$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/dto/DtoUtil.java" />
-        <option value="$PROJECT_DIR$/jgg_common_utils/pom.xml" />
         <option value="$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MD5.java" />
         <option value="$PROJECT_DIR$/jgg_common_dto/pom.xml" />
         <option value="$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/RestTokenVo.java" />
@@ -280,6 +264,10 @@
         <option value="$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/AdminMapper.java" />
         <option value="$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgUser.java" />
+        <option value="$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/JmsMessagingTemplate.java" />
+        <option value="$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MqUtil.java" />
+        <option value="$PROJECT_DIR$/jgg_common_utils/pom.xml" />
       </list>
     </option>
   </component>
@@ -301,15 +289,34 @@
           <item name="jgg_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jgg_common_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jgg_common_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jgg_common_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jgg_common_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="195" />
-    <option name="y" value="117" />
-    <option name="width" value="1565" />
-    <option name="height" value="870" />
+    <option name="x" value="471" />
+    <option name="y" value="133" />
+    <option name="width" value="1173" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -326,6 +333,207 @@
               <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jggcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jgg_common_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jggcommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -335,7 +543,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569722215920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569725106943" />
     <property name="last_opened_file_path" value="I:/jingege/jgg_common" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -345,20 +553,28 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Git_jgg02\jggcommon\jggcommon\jgg_common_dao\src\main\java\com\zb\mapper" />
+      <recent name="D:\Cloud\jgg_common\jgg_common_dao\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zb.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util" />
-      <recent name="D:\Cloud\jgg_common\jgg_common_dto\src\main\java\com\zb\dto" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zb.util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zb.util" />
       <recent name="com.zb.config" />
       <recent name="com.zb.dto" />
       <recent name="com.zb.vo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Cloud\jgg_common\jgg_common_dao\src\main\resources\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Git_jgg02\jggcommon\jggcommon\jgg_common_module\src\main\java\com\zb\pojo" />
+      <recent name="I:\Git_jgg02\jggcommon\jggcommon\jgg_common_dto\src\main\java\com\zb\vo" />
+      <recent name="I:\Git_jgg02\jggcommon\jggcommon\jgg_common_dao\src\main\resources\mapper" />
+      <recent name="D:\Cloud\jgg_common\jgg_common_utils\src\main\java\com\zb\util" />
+      <recent name="D:\Cloud\jgg_common\jgg_common_dto\src\main\java\com\zb\dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,7 +606,7 @@
       <workItem from="1569383025865" duration="19723000" />
       <workItem from="1569662721694" duration="2088000" />
       <workItem from="1569669202648" duration="2444000" />
-      <workItem from="1569717084931" duration="1972000" />
+      <workItem from="1569717084931" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1569383089632</created>
@@ -448,17 +664,24 @@
       <option name="project" value="LOCAL" />
       <updated>1569721623186</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;jggcommon/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_dao/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_dto/target/jgg_common_dto-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_dto/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_module/target/jgg_common_module-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_module/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_service/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;jggcommon/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_utils/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <created>1569722292209</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569722292209</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42304000" />
+    <option name="totallyTimeSpent" value="45111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29758713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,8 +697,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32867134" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49932975" weight="0.32867134" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="CheckStyle" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -486,7 +709,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32945737" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.0810992" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.22319035" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,63 +726,19 @@
     <MESSAGE value="误删" />
     <MESSAGE value="后台登陆" />
     <MESSAGE value="2019-9-29" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-9-29" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;jggcommon/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_dao/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_dto/target/jgg_common_dto-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_dto/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_module/target/jgg_common_module-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_module/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_service/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;jggcommon/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_utils/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;jggcommon/jgg_common_dao/target/jgg_common_dao-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_dao/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_dto/target/jgg_common_dto-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_dto/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_module/target/jgg_common_module-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_module/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_service/target/jgg_common_service-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_service/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;jggcommon/jgg_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;jggcommon/jgg_common_utils/target/jgg_common_utils-1.0-SNAPSHOT.jar&#10;#&#9;jggcommon/jgg_common_utils/target/maven-archiver/pom.properties&#10;#&#9;jggcommon/jgg_common_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jgg_common_module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/UsreServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/BigDecimalUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MqUtil.java" />
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/EmptyUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MD5.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_dto/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/UserTokenVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AddressMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1516" />
@@ -737,27 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/AdminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -777,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="414">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#560#0" expanded="true" />
@@ -787,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_service/src/main/java/com/zb/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="126">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -807,8 +962,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/GoodsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid3352.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/java/com/zb/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_dao/src/main/resources/mapper/QgGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/GoodsVo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/MqMessVo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_dto/src/main/java/com/zb/vo/UserTokenVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgGoods.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgTrade.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgGoodsMessage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgOrder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_module/src/main/java/com/zb/pojo/QgUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/JmsMessagingTemplate.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgg_common_utils/src/main/java/com/zb/util/MqUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
