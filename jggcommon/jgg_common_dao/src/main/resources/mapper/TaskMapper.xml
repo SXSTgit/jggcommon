@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.zb.mapper.TaskMapper">
-    <resultMap id="taskResultMap" type="com.zb.pojo.Trade">
+    <resultMap id="taskResultMap" type="com.zb.pojo.Task">
         <id property="id" column="id"></id>
         <result property="createTime" column="create_time"></result>
         <result property="updateTime" column="update_time"></result>
@@ -14,6 +14,10 @@
         <result property="status" column="status"></result>
         <result property="errormsg" column="errormsg"></result>
     </resultMap>
+    <delete id="deleteTask">
+        delete from jgg_task where id = #{id}
+    </delete>
+
     <select id="findByUpdateTimeBefore" resultMap="taskResultMap">
         SELECT * FROM `jgg_task`
             WHERE TIMESTAMPDIFF( MINUTE,update_time, NOW())>1
@@ -31,4 +35,17 @@
      where t.id = #{id} and t.version = #{version}
    </update>
 
+    <insert id="saveTask" parameterType="com.zb.pojo.Task">
+        insert into jgg_task value (#{id},
+                                     now(),
+                                     now(),
+                                     now(),
+                                      #{taskType},
+                                      #{mqExchange},
+                                      #{mqRoutingkey},
+                                      #{requestBody},
+                                      0,
+                                      #{status},
+                                      #{errormsg})
+    </insert>
 </mapper>
