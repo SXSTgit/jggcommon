@@ -5,23 +5,8 @@
 <mapper namespace="com.zb.mapper.JorderMapper">
 
     <select id="getJorderById" resultType="com.zb.pojo.Jorder">
-        select
-                id as id,
-                userId as userId,
-                orderNo as orderNo,
-                goodsId as goodsId,
-                num as num,
-                amount as amount,
-                status as status,
-                aliTradeNo as aliTradeNo,
-                createdTime as createdTime,
-                updatedTime as updatedTime
-        from jorder
-        <trim prefix="where" prefixOverrides="and | or">
-            <if test="id != null">
-                and id=#{id}
-            </if>
-        </trim>
+        select * from jorder where orderNo=#{orderNo}  and userId=#{userId}
+
     </select>
 
     <select id="getJorderListByMap" resultType="com.zb.pojo.Jorder" parameterType="java.util.Map">
