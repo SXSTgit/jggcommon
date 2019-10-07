@@ -112,6 +112,7 @@
 
     <insert id="insertJorder" parameterType="com.zb.pojo.Jorder">
         insert into jorder(
+                          id,
                         userId,
                         orderNo,
                         goodsId,
@@ -122,6 +123,7 @@
                         createdTime,
                         updatedTime)
         values(
+                      #{id}
                      #{userId},
                      #{orderNo},
                      #{goodsId},
